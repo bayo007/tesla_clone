@@ -1,0 +1,43 @@
+*{
+    font-family: "Rubik", sans-serif;
+    color: #393c41;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+    width:100%;
+    overflow-x: hidden;
+} 
+
+a{
+    text-decoration:none;
+}
+
+@keyframes animateDown {
+    0%, 20%, 50%, 80% , 100% {    /*from 0 to 20 % it is at 0 y margin then from 40% it becomes 5px upwards*/
+        transform: translateY(0);
+    }
+40%{
+    transform: translateY(5px); /*at 60% it  moves to 3px downwards then finally 0px all through*/
+}
+60%{
+    transform: translateY(3px);
+}
+}
+
+
+a {
+    text-decoration : none;
+}
+
+
+
+
+
+
+
+
+
